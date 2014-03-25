@@ -1,0 +1,144 @@
+/* 
+    Document   : principal
+    Created on : 27/07/2012, 12:36:12 PM
+    Author     : hguzman
+    Description:
+        Estilos para la pagina principal de Metroenvios
+*/
+
+body{
+/*    background-color:darkkhaki;*/
+    background-color:#EBF1CB;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 12px;
+/*    margin: 0px;*/
+    padding: 0px;
+}
+
+#todo{
+/*    border: 1px solid black;  */
+    border-radius: 6px; /* Coloca las esquinas redondeadas*/
+    border: 2px solid #005E00;  
+    background-color: white;
+/*    margin: 0 auto;  Centra El div dentro de la pagina 
+    height: 800px;  Alto 
+    width: 1050px;
+    font: 90% sans-serif;*/
+    height: 650px;  
+    margin-left: auto; 
+    margin-right: auto;
+/*    margin-top: 20px;*/
+    width: 800px;
+
+}
+#encabezado{
+/*    border: 1px solid red;      */
+    margin-top: 20px;
+}
+#encabezado #logo{
+/*    border: 1px solid #44550d;      */
+    padding-left: 20px;
+}
+#encabezado #menuSuperior{
+    border: 1px solid #44550d;      
+    margin-top: 10px;
+    background: #005E00;
+
+}
+#content{
+/*    border: 2px solid aqua;   */
+    height: 400px;
+}
+#content #izquierda{
+/*    border: 1px solid darkblue;          */
+    float: left;
+    height: 250px;
+    width: 200px;
+}
+#content #centro{
+/*    border: 2px solid darkgoldenrod;  */
+    float: left;
+    height: 470px;
+    width: 580px;
+}
+#content #centro #animacion{
+/*    border: 2px solid gold;*/
+    height: 100px;
+    width: 550px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+#content #centro #informacion{
+/*    border: 2px solid red;    */
+    text-align: justify;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 60px;
+    color: #44550d;
+}
+#piepagina{
+/*    border: 2px solid gold;    */
+    font-size: 11px;
+    text-align: center;
+}
+
+#menuLateral{
+    border: 1px solid #44550d;      
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;    
+    height: 150px; /* Alto del header */
+    width: 280px;    
+    background-color: #EBF1CB;
+    border-radius: 6px; /* Coloca las esquinas redondeadas*/
+}
+
+.formulario{
+    border-radius: 6px; /* Coloca las esquinas redondeadas*/
+    background-color: #EBF1CB;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid #44550d;      
+    width: 180px;
+}
+.formulario div{
+    text-align: center;
+}
+.formulario label{
+    display: block; /* esto es para que el label se sobreponga a la caja de texto */
+    font-weight: bold;
+}
+.formulario img{
+    margin: 10px;
+}
+.formulario input[type='text']{
+    border: 1px solid #44550d;
+    width: 110px;
+    color: #005E00;
+    font-size: 11px;
+/*    border-radius: 10px;    
+    box-shadow: 5px 5px 5px #44550d;
+    margin-top: 20px;*/
+}
+.formulario input[type='submit']{
+/*    border: 3px solid #44550d;*/
+/*    background-color: #005E00;*/
+    color: black;
+    width: 100px;
+    font-size: 11px;
+/*    border-radius: 10px;    
+    box-shadow: 5px 5px 5px #44550d;
+    margin-top: 20px;*/
+}
+
+#desplegable{
+    width: 110px;    
+    color: black;
+    border-radius: 6px;
+    font-size: 11px;
+/*    background-color: #005E00;*/
+        
+}
